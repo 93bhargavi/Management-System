@@ -1,22 +1,37 @@
-.gradient-custom-2 {
-    /* fallback for old browsers */
-    background: #fccb90;
-    
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
-    
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
-    }
-    
-    @media (min-width: 768px) {
-    .gradient-form {
-    height: 100vh !important;
-    }
-    }
-    @media (min-width: 769px) {
-    .gradient-custom-2 {
-    border-top-right-radius: .3rem;
-    border-bottom-right-radius: .3rem;
-    }
-    }
+.card-title {
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+.card {
+    margin-top: 10vh;
+    width: 400px;  
+ } 
+
+.form-group {
+    font-family:Arial, Helvetica, sans-serif;
+}
+ 
+
+
+/* Style for the menu container */
+.menu {
+    color: #fff; /* Text color for menu items */
+    width: 250px; /* Adjust the width as needed */
+    height: 100%; /* Full height of the viewport */
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px; /* Add padding as needed */
+  }
+  
+  /* Style for the menu items */
+  .menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+    font-size: 16px;
+  }
+  
+ 

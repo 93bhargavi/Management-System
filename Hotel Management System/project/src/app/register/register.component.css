@@ -1,0 +1,48 @@
+.registration-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin-top: 10vh;
+    background-image: url('E:\Management-System\Hotel Management System\project\src\assets\hotel.jpeg');  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+ 
+  
+  .form-group {
+    margin-bottom: 20px;
+    color:white ;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

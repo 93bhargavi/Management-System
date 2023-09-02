@@ -2,6 +2,9 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
  body {
-    background-color:rgb(241, 30, 132);  
+   background-image: url('E:\Management-System\Hotel Management System\project\src\assets\taj-lakefront-bhopal-lead.webp');  
+   background-size: cover;
+   
+   background-repeat: no-repeat;
  } 
   
