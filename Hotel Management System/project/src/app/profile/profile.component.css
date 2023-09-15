@@ -1,0 +1,30 @@
+.profile-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .profile-info {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .profile-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .profile-label {
+    font-weight: bold;
+  }
+  
+  .profile-value {
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+  
