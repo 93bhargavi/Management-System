@@ -11,14 +11,21 @@ import { ApiService } from '../api.service';
 export class LoginComponent {
 username:any;
 password:any;
+submitted:any;
+ 
 
 constructor(private api:ApiService, private route:Router){}
 
-
-submit(){
-
-  
-  
+submit()
+{
+   
+    var enc=this.api.encrypt ({username:this.username,password:this.password})
+    console.log(enc);     
+    // this.submitted=true;
+     
+    // this.route.navigate(['/profile']);
+    
+       
 }
 
 }
